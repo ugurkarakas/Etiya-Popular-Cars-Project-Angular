@@ -1,0 +1,18 @@
+<div class="content-process" *ngIf="!clickEvent">
+  <h1 class="head-text">Favori <strong>Arabanı</strong> Hemen Seç</h1>
+  <div class="cars-container">
+      <div class="car-item"  *ngFor="let item of Array | async" (click)="postContent(item)">
+          <div class="car-img"><img [src]="item.content" alt=""></div>
+          <div class="car-detail">
+              <div class="car-title"><span>{{item.brand}}</span></div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="content-process" *ngIf="clickEvent">
+  <h1 class="head-text">Tebrikler tercihiz <strong>alınmıştır.</strong> 🎉</h1>
+  <div class="btn-grp">
+  <atom-button class="again-btn" text="Tekrar Oy Kullanın" (click)="clickBtn()"></atom-button>
+  <atom-link text="Analizler" url="/statistic" class="statistic-btn"></atom-link>
+  </div>
+</div>

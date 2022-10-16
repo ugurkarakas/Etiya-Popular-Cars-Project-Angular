@@ -1,0 +1,179 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "content": "assets/img/carImg/Urus.png",
+      "brand": "Lamborghini",
+      "name": "Urus"
+    },
+    {
+      "id": 2,
+      "content": "assets/img/carImg/G-Serisi.png",
+      "brand": "Mercedes-Benz",
+      "name": "G Serisi"
+    },
+    {
+      "id": 3,
+      "content": "assets/img/carImg/CX-60.png",
+      "brand": "Mazda",
+      "name": "Cx 60"
+    },
+    {
+      "id": 4,
+      "content": "assets/img/carImg/Grand-Cherokee.png",
+      "brand": "Jeep",
+      "name": "Cherokee"
+    },
+    {
+      "id": 5,
+      "content": "assets/img/carImg/Ranger.png",
+      "brand": "Ford",
+      "name": "Ranger"
+    },
+    {
+      "id": 6,
+      "content": "assets/img/carImg/rio.png",
+      "brand": "Kia",
+      "name": "Rio"
+    },
+    {
+      "id": 7,
+      "content": "assets/img/carImg/Sportage.png",
+      "brand": "Kia",
+      "name": "Sportage"
+    },
+    {
+      "id": 8,
+      "content": "assets/img/carImg/Wrangler.png",
+      "brand": "Jeep",
+      "name": "Wrangler"
+    }
+  ],
+  "likedPost": [
+    {
+      "date": "2022-10-11",
+      "postsId": 4,
+      "id": 18
+    },
+    {
+      "date": "2022-10-17",
+      "postsId": 8,
+      "id": 19
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 2,
+      "id": 20
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 7,
+      "id": 21
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 1,
+      "id": 22
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 1,
+      "id": 23
+    },
+    {
+      "date": "2022-10-19",
+      "postsId": 1,
+      "id": 23
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 4,
+      "id": 24
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 4,
+      "id": 25
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 7,
+      "id": 26
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 7,
+      "id": 27
+    },
+    {
+      "date": "2022-10-13",
+      "postsId": 5,
+      "id": 28
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 7,
+      "id": 29
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 6,
+      "id": 30
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 4,
+      "id": 31
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 4,
+      "id": 32
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 6,
+      "id": 33
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 1,
+      "id": 34
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 6,
+      "id": 35
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 1,
+      "id": 36
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 7,
+      "id": 37
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 6,
+      "id": 38
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 6,
+      "id": 39
+    },
+    {
+      "date": "2022-10-16",
+      "postsId": 7,
+      "id": 40
+    },
+    {
+      "date": "2022-10-2",
+      "postsId": 2,
+      "id": 41
+    }
+  ]
+}

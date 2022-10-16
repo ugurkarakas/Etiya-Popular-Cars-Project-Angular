@@ -1,0 +1,17 @@
+.content-container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    margin: auto;
+    gap: 100px;
+}
+
+@media screen and (max-width:1250px){
+.content-container{
+    width: 100%;
+    padding: 0px 5px;
+    gap: 50px;
+}
+}

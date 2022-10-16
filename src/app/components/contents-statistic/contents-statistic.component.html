@@ -1,0 +1,44 @@
+<div class="content-process" *ngIf="carVote">
+  <h1 class="head-text">En Popüler <strong>Arabalar</strong></h1>
+  <div class="arrangement-container">
+    <div class="arrangement-item" *ngFor="let item of PopularCars | slice:0:3;let i = index">
+      <span class="arrangement-score">{{i+1}}</span>
+      <div class="flx-clmn">
+        <div class="arrangement-img">
+          <img [src]="item.content" alt="" />
+        </div>
+        <div class="arrangement-content">
+          <h3>{{item.brand}}</h3>
+          <span>{{item.likeCount}} oy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div *ngFor="let item of LikedTable | async">
+{{item.postsId}}
+{{item.id}}
+</div> -->
+<div class="arrangement-process" *ngIf="carVote">
+<div class="process-btn-container">
+  <atom-button class="dark-blue-btn" text="Ayın En Popüleri" (click)="monthPopuler()"></atom-button>
+  <atom-button class="dark-blue-btn" text="Haftanın En Popüleri" (click)="weekPopuler()"></atom-button>
+  <atom-button class="dark-blue-btn" text="Günün En Popüleri" (click)="dayPopuler()"></atom-button>
+  <atom-button class="dark-blue-btn" text="Tüm Zamanların En Popüleri" (click)="getPopularCars()"></atom-button>
+
+</div>
+<div class="arrangement-list">
+  <div class="item" *ngFor="let item of PopularCars">
+    <img [src]="item.content" alt="">
+    <h3>{{item.brand}}</h3>
+    <h3>{{item.name}}</h3>
+    <span>{{item.likeCount}} oy</span>
+  </div>
+</div>
+</div>
+<div class="none-data" *ngIf="!carVote">
+  <span >Mevcut Oylama Bulunamadı !</span>
+  <atom-link text="Hemen Oy Kullan" class="statistic-btn" url="/"></atom-link>
+</div>
+<!-- *ngIf="!carVote" -->
