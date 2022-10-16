@@ -1,6 +1,6 @@
 # Etiya Angular Case
 
-proje içerisinde araç oy verme ve analiz sayfası olmak üzere 2 temek sayfa yer almaktadır.
+Proje içerinde kullanıcının karşısına 2 adet araç görseli çıkmaktadır. Kullanıcı herhangi birini seçer ve oyunu kullanır. Analiz sayfasını ziyaret eden kullanıcı en popüler 3 araç modülüne erişir. Alt kısımda ise tüm araçların tıklanma sayıları ve sıralamaları yer almaktadır. 
 
 ## Json-Server
 
@@ -16,7 +16,7 @@ Css ve Js kodları tanımlarken mümkün olduğunca kullanmış olduğum çalı�
 
 ## 3.	What’s your process for addressing browser-specific rendering problems? Do you find that a certain browser is more challenging to work with than others?
 
-Çok da zor olduğunu düşünmüyorum. Bazı yazdığım tasarımsal kodlamalar diğer tarayıcılarda çalışmaya biliyor. O tarayıcılara özel olarak bir kaç satır kod ekleyerek sorunu çözüyorum. Genellikle en fazla safaride ufak tefek sorunlarla karşılaşıyorum.
+Çok zor olduğunu düşünmüyorum. Bazı yazdığım tasarımsal kodlamalar diğer tarayıcılarda çalışmaya biliyor. O tarayıcılara özel olarak bir kaç satır kod ekleyerek sorunu çözüyorum. Genellikle en fazla safaride ufak tefek sorunlarla karşılaşıyorum.
 
 ## 4.	What resources do you use to learn about the latest in front end development and design?
 
@@ -37,4 +37,4 @@ Genel olarak tasarımı incelerim. Daha sonra site yapısını parçalara böler
 
 ## 8.	As a developer, what ways are applied to reduce the load time of any given website?
 
-çok fazla kod tekrarına gidilmemelidir. site açıldığında bazı yerler geç yükleniyor ise orayı etkileyen kodları tekrardan düzenlemeye giderim. Frontend FrameWork projeleri haricinde js linklerinin yerleri bile site yüklenmesinde çok büyük farklara neden olmaktadır. 
+Çok fazla kod tekrarına gidilmemelidir. Site açıldığında bazı yerler geç yükleniyor ise orayı etkileyen kodları tekrardan düzenlemeye giderim. Angular ve benzeri projeler aricinde Js linklerinin yerleri bile site yüklenmesinde çok büyük farklara neden olmaktadır. 
